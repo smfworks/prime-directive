@@ -35,22 +35,22 @@ This repo holds everything you need to run the same loop yourself: the templates
 
 ```mermaid
 flowchart TD
-    O(["You, the owner"])
-    B["Builder Prime<br/>plans, codes, tests, fixes"]
-    PR[("Pull request")]
-    G["Gatekeeper Prime<br/>reviews, verifies, merges on your yes"]
-    I[("Issues")]
-    M[("main")]
+    O([You, the owner])
+    B[Builder Prime]
+    PR[(Pull request)]
+    G[Gatekeeper Prime]
+    I[(Issues)]
+    M[(main)]
 
-    O -->|"idea or issue"| B
-    B -->|"PR + failing-on-main test"| PR
-    PR -->|"watch fires"| G
-    G -->|"public review pinned to head SHA"| PR
-    G -->|"findings: High / Medium / Low"| B
-    G -->|"non-blocking Lows"| I
-    G -->|"merge-ready: PR, SHA, checks green"| O
-    O -->|"explicit yes"| G
-    G -->|"squash-merge locked to that SHA"| M
+    O -->|idea or issue| B
+    B -->|PR with a failing-on-main test| PR
+    PR -->|watch fires| G
+    G -->|public review pinned to head SHA| PR
+    G -->|findings ranked High, Medium, Low| B
+    G -->|non-blocking Lows| I
+    G -->|merge-ready note| O
+    O -->|explicit yes| G
+    G -->|squash-merge locked to that SHA| M
 ```
 
 In plain words:
