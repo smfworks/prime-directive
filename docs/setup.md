@@ -25,7 +25,7 @@ This walks you from zero to your first merged PR with Builder Prime and Gatekeep
 
 Open each link and add the template to your Grok Bot:
 
-- **Builder Prime:** [TEMPLATE_LINK_BUILDER_PRIME](TEMPLATE_LINK_BUILDER_PRIME)
+- **Builder Prime:** [https://x.ai/bot/W_emQTXhJxJWJOi-c3hjD](https://x.ai/bot/W_emQTXhJxJWJOi-c3hjD)
 - **Gatekeeper Prime:** [TEMPLATE_LINK_GATEKEEPER_PRIME](TEMPLATE_LINK_GATEKEEPER_PRIME)
 
 Each one becomes its own bot with its own chat. Neither template contains anyone else's repos, accounts, or secrets. Everything specific to you gets filled in during setup.

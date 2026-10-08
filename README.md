@@ -7,7 +7,7 @@
 <p align="center"><strong>Two Primes. One rule: nothing merges without the human's yes.</strong></p>
 
 <p align="center">
-  <a href="TEMPLATE_LINK_BUILDER_PRIME">Builder Prime template</a> ·
+  <a href="https://x.ai/bot/W_emQTXhJxJWJOi-c3hjD">Builder Prime template</a> ·
   <a href="TEMPLATE_LINK_GATEKEEPER_PRIME">Gatekeeper Prime template</a> ·
   <a href="docs/setup.md">Setup guide</a> ·
   <a href="docs/how-it-works.md">How it works</a> ·
@@ -24,7 +24,7 @@ It comes as two templates you can import today:
 
 | | Role | What it does |
 |---|---|---|
-| ⚒️ **[Builder Prime](TEMPLATE_LINK_BUILDER_PRIME)** | The builder | Plans big changes, writes the code and tests, opens PRs, and fixes whatever review finds. It never merges and never pushes to `main`. |
+| ⚒️ **[Builder Prime](https://x.ai/bot/W_emQTXhJxJWJOi-c3hjD)** | The builder | Plans big changes, writes the code and tests, opens PRs, and fixes whatever review finds. It never merges and never pushes to `main`. |
 | 🛡️ **[Gatekeeper Prime](TEMPLATE_LINK_GATEKEEPER_PRIME)** | The reviewer | Reviews every PR at its exact commit, posts the review publicly, checks the fix proof and the credits, waits for every check, and merges only on your explicit yes. |
 
 They came out of my own setup at SMF Works. Builder Prime is modeled on Patrick Programmer, the bot that builds [Praxis Prime](https://github.com/smfworks/praxis-prime). Gatekeeper Prime is modeled on Peyton PR, the bot that reviews it. Over two days in October 2026 those two shipped eight PRs to Praxis Prime, and the review loop caught a real compliance bypass on the way. That's all public, and it's covered in the [case study](#case-study-praxis-prime) below.
@@ -101,7 +101,7 @@ These are the house rules both templates ship with. We adopted all six for Praxi
 You'll need a Grok Bot account, a GitHub account, and a repo you want the pair to work on. The [setup guide](docs/setup.md) walks through every step. Here's the short version:
 
 1. **Import [Gatekeeper Prime](TEMPLATE_LINK_GATEKEEPER_PRIME)** and answer its getting-started questions: GitHub, which repos to guard, your digest time, and whether it can post reviews publicly.
-2. **Import [Builder Prime](TEMPLATE_LINK_BUILDER_PRIME)** and answer its questions: GitHub, where it codes (your own computer or cloud coding agents), which repos, and the git identity for its commits.
+2. **Import [Builder Prime](https://x.ai/bot/W_emQTXhJxJWJOi-c3hjD)** and answer its questions: GitHub, where it codes (your own computer or cloud coding agents), which repos, and the git identity for its commits.
 3. **Pair them.** Each one asks which bot is its partner. Point them at each other and they'll exchange ids and introduce themselves.
 4. **Protect `main`.** Let Gatekeeper Prime add the branch ruleset, or add it yourself from [examples/ruleset.json](examples/ruleset.json).
 5. **Add the PR template.** Copy [examples/PULL_REQUEST_TEMPLATE.md](examples/PULL_REQUEST_TEMPLATE.md) to `.github/` in your repo.
