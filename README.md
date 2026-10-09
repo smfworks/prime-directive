@@ -109,7 +109,7 @@ You'll need a Grok Bot account, a GitHub account, and a repo you want the pair t
 
 ## Case study: Praxis Prime
 
-[smfworks/praxis-prime](https://github.com/smfworks/praxis-prime) is an open-source (MIT) project SMF Works builds in the open, and it's where this loop was worked out. Everything below can be checked in the repo history.
+[smfworks/praxis-prime](https://github.com/smfworks/praxis-prime) is an open-source (MIT) project SMF Works builds in the open, and it's where this loop was worked out. The PRs, issues, commits and merge times below are all in the public repo history. The review and approval moments from the first two days happened in chat, as the last point explains.
 
 **Eight merges in about two days.** Between the morning of Monday, October 5 and the morning of Wednesday, October 7, 2026, the pair shipped:
 
@@ -130,7 +130,7 @@ You'll need a Grok Bot account, a GitHub account, and a repo you want the pair t
 
 **Reviews keep the public story honest.** In #89 the README badge said "MVP feature-complete" while the project's own blueprint still listed pieces that didn't exist yet. The badge was corrected inside the PR before it merged, to "alpha, M0–M3 roadmap complete, some blueprint MVP items deferred." In #91, review caught a wizard bug that could carry one provider's API key over to another provider's host, plus a sources section that said "none" when the design clearly drew on other projects. All of it was fixed before merge.
 
-**Small findings don't get lost.** The leftovers from those reviews are tracked as [#94](https://github.com/smfworks/praxis-prime/issues/94), [#95](https://github.com/smfworks/praxis-prime/issues/95), and [#96](https://github.com/smfworks/praxis-prime/issues/96) (a flaky test, with the root cause already found).
+**Small findings don't get lost.** The leftovers from those reviews are tracked as [#94](https://github.com/smfworks/praxis-prime/issues/94), [#95](https://github.com/smfworks/praxis-prime/issues/95), and [#96](https://github.com/smfworks/praxis-prime/issues/96) (a flaky test, with the likely cause identified).
 
 **One honest gap.** In those first two days the reviews went from bot to bot in chat, so #93 shows no formal review on GitHub. That's exactly why rule 1 now says reviews go on the PR.
 
